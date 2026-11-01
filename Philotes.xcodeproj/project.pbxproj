@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14C1E238210E7D18575B7BBC /* DatabaseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34BFC31070CCB496FD49526 /* DatabaseStore.swift */; };
+		2D5EDEF9DE8E0A976CE4BFB6 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6CE2E09C2C58B6B161216E /* RootView.swift */; };
+		4A8BE08059D0D9AF2EC8C254 /* PhilotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118388475AAD83284BE81268 /* PhilotesApp.swift */; };
+		B10000000000000000000001 /* PhilotesTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000001 /* PhilotesTheme.swift */; };
+		B10000000000000000000002 /* AppSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000002 /* AppSection.swift */; };
+		B10000000000000000000003 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000003 /* SidebarView.swift */; };
+		B10000000000000000000004 /* ConversationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000004 /* ConversationPage.swift */; };
+		B10000000000000000000005 /* MemoryPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000005 /* MemoryPage.swift */; };
+		B10000000000000000000006 /* PresencePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000006 /* PresencePage.swift */; };
+		B10000000000000000000007 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000007 /* SettingsPage.swift */; };
+		B10000000000000000000008 /* ConstellationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000008 /* ConstellationPage.swift */; };
+		B10000000000000000000009 /* AgentsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000009 /* AgentsPage.swift */; };
+		B1000000000000000000000A /* FloatingChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000A /* FloatingChatView.swift */; };
+		B1000000000000000000000B /* APISettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000B /* APISettings.swift */; };
+		B1000000000000000000000C /* CustomAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000C /* CustomAPIClient.swift */; };
+		B1000000000000000000000D /* APIProviderSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000D /* APIProviderSettings.swift */; };
+		B1000000000000000000000E /* MacControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000E /* MacControl.swift */; };
+		B1000000000000000000000F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000F /* Assets.xcassets */; };
+		B10000000000000000000010 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000010 /* AppIcon.icon */; };
+		B10000000000000000000012 /* AgentMemoryVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000012 /* AgentMemoryVault.swift */; };
+		B10000000000000000000013 /* MarkdownPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000013 /* MarkdownPreviewView.swift */; };
+		B10000000000000000000014 /* ChatMemoryImportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000014 /* ChatMemoryImportService.swift */; };
+		B10000000000000000000015 /* ImportMemoryAgentSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000015 /* ImportMemoryAgentSheet.swift */; };
+		B10000000000000000000016 /* GroupChatPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000016 /* GroupChatPage.swift */; };
+		B10000000000000000000017 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000017 /* Localization.swift */; };
+		B10000000000000000000018 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C10000000000000000000002 /* Localizable.strings */; };
+		B10000000000000000000019 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C10000000000000000000003 /* InfoPlist.strings */; };
+		B1000000000000000000001A /* CreatorCredits.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001E /* CreatorCredits.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		118388475AAD83284BE81268 /* PhilotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilotesApp.swift; sourceTree = "<group>"; };
+		16ACA11C60117E2436FAE805 /* Philotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Philotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A6CE2E09C2C58B6B161216E /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A10000000000000000000001 /* PhilotesTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilotesTheme.swift; sourceTree = "<group>"; };
+		A10000000000000000000002 /* AppSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSection.swift; sourceTree = "<group>"; };
+		A10000000000000000000003 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		A10000000000000000000004 /* ConversationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationPage.swift; sourceTree = "<group>"; };
+		A10000000000000000000005 /* MemoryPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryPage.swift; sourceTree = "<group>"; };
+		A10000000000000000000006 /* PresencePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresencePage.swift; sourceTree = "<group>"; };
+		A10000000000000000000007 /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
+		A10000000000000000000008 /* ConstellationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstellationPage.swift; sourceTree = "<group>"; };
+		A10000000000000000000009 /* AgentsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentsPage.swift; sourceTree = "<group>"; };
+		A1000000000000000000000A /* FloatingChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingChatView.swift; sourceTree = "<group>"; };
+		A1000000000000000000000B /* APISettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APISettings.swift; sourceTree = "<group>"; };
+		A1000000000000000000000C /* CustomAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAPIClient.swift; sourceTree = "<group>"; };
+		A1000000000000000000000D /* APIProviderSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProviderSettings.swift; sourceTree = "<group>"; };
+		A1000000000000000000000E /* MacControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacControl.swift; sourceTree = "<group>"; };
+		A1000000000000000000000F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A10000000000000000000010 /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
+		A10000000000000000000012 /* AgentMemoryVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentMemoryVault.swift; sourceTree = "<group>"; };
+		A10000000000000000000013 /* MarkdownPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownPreviewView.swift; sourceTree = "<group>"; };
+		A10000000000000000000014 /* ChatMemoryImportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMemoryImportService.swift; sourceTree = "<group>"; };
+		A10000000000000000000015 /* ImportMemoryAgentSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportMemoryAgentSheet.swift; sourceTree = "<group>"; };
+		A10000000000000000000016 /* GroupChatPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupChatPage.swift; sourceTree = "<group>"; };
+		A10000000000000000000017 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		A10000000000000000000018 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A10000000000000000000019 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A1000000000000000000001A /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A1000000000000000000001B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1000000000000000000001C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1000000000000000000001D /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		A1000000000000000000001E /* CreatorCredits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorCredits.swift; sourceTree = "<group>"; };
+		E34BFC31070CCB496FD49526 /* DatabaseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXVariantGroup section */
+		C10000000000000000000002 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A10000000000000000000018 /* en */,
+				A10000000000000000000019 /* ja */,
+				A1000000000000000000001A /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000003 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1000000000000000000001B /* en */,
+				A1000000000000000000001C /* ja */,
+				A1000000000000000000001D /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin PBXGroup section */
+		37562A039B885E967340CE43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16ACA11C60117E2436FAE805 /* Philotes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89AB5D08100AF990432C9697 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000009 /* AgentsPage.swift */,
+				A10000000000000000000012 /* AgentMemoryVault.swift */,
+				A1000000000000000000000D /* APIProviderSettings.swift */,
+				A1000000000000000000000B /* APISettings.swift */,
+				A10000000000000000000002 /* AppSection.swift */,
+				A10000000000000000000014 /* ChatMemoryImportService.swift */,
+				A10000000000000000000008 /* ConstellationPage.swift */,
+				A10000000000000000000004 /* ConversationPage.swift */,
+				A1000000000000000000001E /* CreatorCredits.swift */,
+				A1000000000000000000000C /* CustomAPIClient.swift */,
+				E34BFC31070CCB496FD49526 /* DatabaseStore.swift */,
+				A1000000000000000000000A /* FloatingChatView.swift */,
+				A10000000000000000000016 /* GroupChatPage.swift */,
+				A10000000000000000000015 /* ImportMemoryAgentSheet.swift */,
+				A10000000000000000000017 /* Localization.swift */,
+				A1000000000000000000000E /* MacControl.swift */,
+				A10000000000000000000013 /* MarkdownPreviewView.swift */,
+				A10000000000000000000005 /* MemoryPage.swift */,
+				118388475AAD83284BE81268 /* PhilotesApp.swift */,
+				A10000000000000000000001 /* PhilotesTheme.swift */,
+				A10000000000000000000006 /* PresencePage.swift */,
+				7A6CE2E09C2C58B6B161216E /* RootView.swift */,
+				A10000000000000000000007 /* SettingsPage.swift */,
+				A10000000000000000000003 /* SidebarView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000001 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C10000000000000000000002 /* Localizable.strings */,
+				C10000000000000000000003 /* InfoPlist.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8E4699A19A921A1E5E1BAC8A = {
+			isa = PBXGroup;
+			children = (
+				F6001C57315499B5E5750436 /* app */,
+				37562A039B885E967340CE43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6001C57315499B5E5750436 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000010 /* AppIcon.icon */,
+				A1000000000000000000000F /* Assets.xcassets */,
+				D10000000000000000000001 /* Resources */,
+				89AB5D08100AF990432C9697 /* Sources */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6859851D2046BCA7C2CDE0A2 /* Philotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605E779547A99D5A843A5331 /* Build configuration list for PBXNativeTarget "Philotes" */;
+			buildPhases = (
+				7B3E503233FCC6A439D8E713 /* Sources */,
+				C10000000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Philotes;
+			packageProductDependencies = (
+			);
+			productName = Philotes;
+			productReference = 16ACA11C60117E2436FAE805 /* Philotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EF48D1D9F680ED230907CC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6859851D2046BCA7C2CDE0A2 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C6BAC48F343ABC20E184333A /* Build configuration list for PBXProject "Philotes" */;
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				ja,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 8E4699A19A921A1E5E1BAC8A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 37562A039B885E967340CE43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6859851D2046BCA7C2CDE0A2 /* Philotes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C10000000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10000000000000000000010 /* AppIcon.icon in Resources */,
+				B1000000000000000000000F /* Assets.xcassets in Resources */,
+				B10000000000000000000018 /* Localizable.strings in Resources */,
+				B10000000000000000000019 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B3E503233FCC6A439D8E713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10000000000000000000009 /* AgentsPage.swift in Sources */,
+				B10000000000000000000012 /* AgentMemoryVault.swift in Sources */,
+				B1000000000000000000000D /* APIProviderSettings.swift in Sources */,
+				B1000000000000000000000B /* APISettings.swift in Sources */,
+				B10000000000000000000002 /* AppSection.swift in Sources */,
+				B10000000000000000000014 /* ChatMemoryImportService.swift in Sources */,
+				B10000000000000000000008 /* ConstellationPage.swift in Sources */,
+				B10000000000000000000004 /* ConversationPage.swift in Sources */,
+				B1000000000000000000001A /* CreatorCredits.swift in Sources */,
+				B1000000000000000000000C /* CustomAPIClient.swift in Sources */,
+				14C1E238210E7D18575B7BBC /* DatabaseStore.swift in Sources */,
+				B1000000000000000000000A /* FloatingChatView.swift in Sources */,
+				B10000000000000000000016 /* GroupChatPage.swift in Sources */,
+				B10000000000000000000015 /* ImportMemoryAgentSheet.swift in Sources */,
+				B10000000000000000000017 /* Localization.swift in Sources */,
+				B1000000000000000000000E /* MacControl.swift in Sources */,
+				B10000000000000000000013 /* MarkdownPreviewView.swift in Sources */,
+				B10000000000000000000005 /* MemoryPage.swift in Sources */,
+				4A8BE08059D0D9AF2EC8C254 /* PhilotesApp.swift in Sources */,
+				B10000000000000000000001 /* PhilotesTheme.swift in Sources */,
+				B10000000000000000000006 /* PresencePage.swift in Sources */,
+				2D5EDEF9DE8E0A976CE4BFB6 /* RootView.swift in Sources */,
+				B10000000000000000000007 /* SettingsPage.swift in Sources */,
+				B10000000000000000000003 /* SidebarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		60978B7BEB0ED9F8835FECBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = MQY3H4X8RU;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				OTHER_CODE_SIGN_FLAGS = "-r $(SRCROOT)/app/PhilotesCodeSigning.requirements";
+				OTHER_LDFLAGS = "-lsqlite3";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shironotsu.philotes;
+				PRODUCT_NAME = Philotes;
+				SDKROOT = macosx;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8D27416F2C339F2A344BB542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_DEBUG_DYLIB = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B57BDD57F4E84D9FE8EA7CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_DEBUG_DYLIB = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F0187E90FFBEB334B05C6FE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = MQY3H4X8RU;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				OTHER_CODE_SIGN_FLAGS = "-r $(SRCROOT)/app/PhilotesCodeSigning.requirements";
+				OTHER_LDFLAGS = "-lsqlite3";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shironotsu.philotes;
+				PRODUCT_NAME = Philotes;
+				SDKROOT = macosx;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		605E779547A99D5A843A5331 /* Build configuration list for PBXNativeTarget "Philotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60978B7BEB0ED9F8835FECBC /* Debug */,
+				F0187E90FFBEB334B05C6FE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C6BAC48F343ABC20E184333A /* Build configuration list for PBXProject "Philotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D27416F2C339F2A344BB542 /* Debug */,
+				B57BDD57F4E84D9FE8EA7CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EF48D1D9F680ED230907CC7 /* Project object */;
+}

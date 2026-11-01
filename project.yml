@@ -1,0 +1,49 @@
+name: Philotes
+options:
+  bundleIdPrefix: com.shironotsu
+  developmentLanguage: zh-Hans
+  deploymentTarget:
+    macOS: "15.0"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    CODE_SIGN_STYLE: Automatic
+    ENABLE_APP_SANDBOX: NO
+    ENABLE_DEBUG_DYLIB: NO
+
+targets:
+  Philotes:
+    type: application
+    platform: macOS
+    sources:
+      - path: app/Sources
+      - path: app/Resources
+        buildPhase: resources
+      - path: app/Assets.xcassets
+        buildPhase: resources
+      - path: app/AppIcon.icon
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.shironotsu.philotes
+        PRODUCT_NAME: Philotes
+        DEVELOPMENT_TEAM: MQY3H4X8RU
+        CODE_SIGN_IDENTITY: Apple Development
+        MARKETING_VERSION: "1.1"
+        CURRENT_PROJECT_VERSION: "4"
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: app/Info.plist
+        OTHER_CODE_SIGN_FLAGS: "-r $(SRCROOT)/app/PhilotesCodeSigning.requirements"
+        OTHER_LDFLAGS: "-lsqlite3"
+        TARGETED_DEVICE_FAMILY: "1"
+
+schemes:
+  Philotes:
+    build:
+      targets:
+        Philotes: all
+    run:
+      config: Debug
+      debugEnabled: false

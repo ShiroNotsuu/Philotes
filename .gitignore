@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+._*
+
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Local build artifacts / release packages
+dist/
+
+# Local databases
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Secrets
+.env
+*.pem
+*.key
